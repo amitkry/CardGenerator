@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    z-index: -1;
+    padding: 60px 320px;
+    background-image: url('photo/bg.jpg');
+    background-size: cover;
+}
+.container{
+    height: 450px;
+    width: 600px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 22px;
+    box-shadow: 10px 10px 40px black;
+}
+.card{
+    height: 400px;
+    width: 550px;
+    border: 3px solid black;
+    background-image: url('photo/balls.jpg');
+    background-size: cover;
+}
+#msg{
+    font-weight: bolder;
+    font-family: cursive;
+    text-shadow: 2px 2px 5px black;
+    text-align: right;
+    padding: 10px;
+    font-size: 40px;
+}
+#happy{
+    color: teal;
+}
+#new{
+    color: magenta;
+}
+#year{
+    color: gold;
+}
+#year_value{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    text-align: right;
+    margin: 100px;
+}
+#name{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 90px;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    text-align: right;
+    font-weight: bolder;
+    display: block;
+    text-shadow: 2px 2px 5px gold;
+}
+.quote{
+    text-align: right;
+    font-size: 40px;
+    font-weight: bolder;
+    text-indent: 100px;
+    margin: 20px;
+    font-family: 'Rouge Script', cursive;
+}
